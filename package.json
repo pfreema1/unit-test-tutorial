@@ -1,0 +1,41 @@
+{
+  "name": "hiya-buddy-boilerplate",
+  "version": "1.0.0",
+  "description": "ᕕ( ᐛ )ᕗ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfreema1/hiya-buddy-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/pfreema1/hiya-buddy-boilerplate",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.22.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rev": "^8.1.1",
+    "gulp-strip-comments": "^2.5.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28",
+    "gulp-watch": "^4.3.11",
+    "postcss-inline-comment": "^3.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}

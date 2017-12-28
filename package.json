@@ -12,9 +12,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "https://github.com/pfreema1/hiya-buddy-boilerplate",
   "devDependencies": {
     "autoprefixer": "^7.2.3",
@@ -37,5 +34,8 @@
   },
   "dependencies": {
     "package.json": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/pfreema1/hiya-buddy-boilerplate/issues"
   }
 }

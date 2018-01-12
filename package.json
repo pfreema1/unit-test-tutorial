@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "jest",
-    "watch": "jest --watch ./assets/scripts/*.js" 
+    "watch": "jest --watch ./assets/scripts/*.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
+    "node-fetch": "^1.7.3",
     "package.json": "^2.0.1"
   },
   "bugs": {

@@ -4,7 +4,8 @@
   "description": "ᕕ( ᐛ )ᕗ",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "jest --watch ./assets/scripts/*.js" 
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-usemin": "^0.3.28",
     "gulp-watch": "^4.3.11",
+    "jest": "^22.0.6",
     "postcss-inline-comment": "^3.0.0",
     "postcss-mixins": "^6.2.0",
     "postcss-nested": "^2.1.2",

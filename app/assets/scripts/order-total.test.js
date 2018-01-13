@@ -1,6 +1,5 @@
 const orderTotal = require("./order-total");
 
-const emptyFunction = () => {};
 
 
 it("calls vatapi.com correctly", () => {
@@ -30,10 +29,9 @@ it("calls vatapi.com correctly", () => {
   });
 });
 
-it("if country code specified");
 
 it("Quantity", () => 
-  orderTotal(emptyFunction, {
+  orderTotal(null, {
     items: [
       { "name": "Dragon Candy", price: 2, quantity: 3 }
     ]
@@ -41,14 +39,14 @@ it("Quantity", () =>
 
 
 it("No quantity specified", () => 
-  orderTotal(emptyFunction, {
+  orderTotal(null, {
     items: [
       { "name": "dragon poo", price: 3 }
     ]
   }).then(result => expect(result).toBe(3)));
 
 it("Happy path (example 1)", () => 
-  orderTotal(emptyFunction, {
+  orderTotal(null, {
     items: [
       { name: "Dragon food", price: 8, quantity: 1 },
       { name: "Dragon cage (small)", price: 800, quantity: 1 }
@@ -56,7 +54,7 @@ it("Happy path (example 1)", () =>
   }).then(result => expect(result).toBe(808)));
 
 it("Happy path (example 2)", () => 
-  orderTotal(emptyFunction, {
+  orderTotal(null, {
     items: [
       { name: "Dragon collar", price: 20, quantity: 1 },
       { name: "Dragon chew toy", price: 40, quantity: 1 }
